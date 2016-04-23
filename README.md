@@ -1,10 +1,8 @@
-# ImageProcessingApp
+## ImageProcessingApp
 <img src="image.png" width="500" height="400">
-#Overview
+##Overview
 A simple image loading,processing method written in Android and Java.
-#Main Function
-Image Processing: </br>
-
+##Main Function
 AlphaModification </br>
 NegativeFilmEffect </br>
 GrayScaleEffect </br>
@@ -15,4 +13,6 @@ BrightnessControl </br>
 RotateImage </br>
 GaussianBlurEffect </br>
 ImageSharpenEffect </br>
+##Detail Report
+[Report](https://goo.gl/WDHcVn)
 
