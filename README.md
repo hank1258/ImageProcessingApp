@@ -14,5 +14,5 @@ RotateImage </br>
 GaussianBlurEffect </br>
 ImageSharpenEffect </br>
 ##Detail Report
-[Report](https://goo.gl/WDHcVn)
+[Report](https://goo.gl/rd8zm6)
 
