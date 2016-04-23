@@ -1,0 +1,81 @@
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<android.support.v4.widget.DrawerLayout
+	    android:id="@+id/drawer_layout"
+    	android:layout_width="match_parent"
+		android:layout_height="match_parent">
+	<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:background="#111">
+		 
+		    <ImageView
+		        android:id="@+id/imgView"
+		        android:tag="NONE"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1">
+		    </ImageView>    
+		    
+		     <SeekBar
+		         android:id="@+id/main_seekBar"
+		         android:layout_width="300dp"
+		         android:layout_height="wrap_content"
+		         android:layout_gravity="center|bottom"
+		         android:paddingBottom="2dp"
+		         android:visibility="gone"/>
+		     <SeekBar
+		         android:id="@+id/seekBar1"
+		         android:layout_width="300dp"
+		         android:layout_height="wrap_content"
+		         android:layout_gravity="center|bottom"
+		         android:paddingBottom="2dp"
+		         android:visibility="gone"/>
+		     <SeekBar
+		         android:id="@+id/seekBar2"
+		         android:layout_width="300dp"
+		         android:layout_height="wrap_content"
+		         android:layout_gravity="center|bottom"
+		         android:paddingBottom="2dp"
+		         android:visibility="gone"/>
+		     <SeekBar
+		         android:id="@+id/seekBar3"
+		         android:layout_width="300dp"
+		         android:layout_height="wrap_content"
+		         android:layout_gravity="center|bottom"
+		         android:paddingBottom="2dp"
+		         android:visibility="gone"/>
+			<Button
+    			android:id="@+id/buttonCom"
+    			android:background="@drawable/compare_btn"   				
+    			android:layout_width="150dp"
+   			   	android:layout_height="wrap_content"
+ 				android:layout_gravity="center|bottom"
+ 				android:paddingBottom="2dp"/>
+		     
+		</LinearLayout>
+	
+		<!-- The navigation drawer -->
+	    <ListView android:id="@+id/left_drawer"
+	        android:layout_width="240dp"
+	        android:layout_height="match_parent"
+	        android:layout_gravity="start"
+	        android:choiceMode="singleChoice"
+	        android:divider="@android:color/transparent"
+	        android:dividerHeight="0dp"
+	        android:background="#111"/>
+	    
+	</android.support.v4.widget.DrawerLayout>
+	
+    <TextView 
+       	android:id="@+id/seekBar_progress_viewer"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:visibility="gone"
+       	android:textColor="#ffffff"
+       	android:text=""
+       	android:textSize="20sp"/>
+</FrameLayout>

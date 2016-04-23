@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpecialEffectCamera</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_load">Load image</string>
+    <string name="action_save">Save image</string>
+    <string name="load_btn">Load</string>
+
+    <string-array name="effects_array">
+        <item>Original</item>
+        <item>Alpha</item>
+        <item>Negative</item>
+        <item>Gray</item>
+        <item>Gamma</item>
+        <item>Decrease</item>
+        <item>Tonning</item>
+        <item>Bright</item>
+        <item>Rotate</item>
+        <item>Gaussian</item>
+        <item>Sharp</item>
+        <item>Process</item>
+        <item>Removal</item>
+        <item>Smooth</item>
+        <item>Boost</item>
+        <item>Flip</item>
+        <item>Tint</item>
+    </string-array>
+   	<string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    
+    
+</resources>
